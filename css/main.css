@@ -70,10 +70,10 @@
 }
 
 @media only screen and (min-width: 767px) {
-	#tile_photo_transcription
+	#tile_li #tile_photo_transcription
 	{
-		height: 0;
 		display: none;
+		background-color: blue;
 	}
 }
 
@@ -99,6 +99,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+	#dropdown
+	{
+		width: 100%;
+	}
+
 	#tile_photo
 	{
 		display: none;
